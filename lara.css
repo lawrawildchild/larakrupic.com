@@ -1,0 +1,117 @@
+body {
+	background-color: rgb(0, 0, 0);
+	background-image: url('/home/marko/Desktop/pozadin.JPG');
+ 	background-repeat: repeat-y;
+ 	background-size:auto auto;
+ 	background-position: 0 -20px;
+ 	font-family: 'Droid serif';
+ 	font-size: 16px;
+ 	text-align: left;
+ 	color:#fff;
+ 	overflow-x: hidden;
+}
+.main {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: auto;
+	width: 1000px;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+#fotka img{
+	margin-top: 40px;
+	border: 1px solid #FFFFFF;
+}
+#fotka {
+	width: 100%;
+}
+#jezik1 {
+	margin-top: 40px;
+}
+#jezik2 {
+	margin-top: 40px;
+}
+p {
+	margin-top: 40px;
+	font-family: 'Open Sans', sans-serif;
+}
+footer{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 10px;
+}
+footer p span {
+	background-color: rgb(50, 50, 50);
+	background-color: rgba(30, 30, 30, 0.7);
+	padding:5px 10px;
+}
+
+.magictime {
+-webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+-o-animation-duration: 3s;
+animation-duration: 3s;
+}
+
+
+#ikona1  {
+	padding-right: 1%;
+	margin: auto;
+	
+}
+#ikona2  {
+	padding-right: 1%;
+	margin: auto;
+}
+#ikona3  {
+	padding-right: 1%;
+	margin: auto;
+}
+#ikona4  {
+	margin: auto;
+	
+}
+.showdescription{
+	text-align: left;
+}
+#textbox{
+	max-width: 400px;
+}
+.thumbnail{
+	margin-top: 2%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.navbar-default{
+	height: 2px;
+	min-height: 5px;
+	margin-right: 0px;
+	color:#FFFFFF;
+	font-size: 12px;
+	background-color: rgb(46,16,0);
+	border-color: rgb(46,16,0);		
+}
+
+.navbar-inverse {
+	background-color: transparent;
+	border: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+	background: rgb(0, 0, 0);
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+	background: rgb(23, 19, 17);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border:none;
+}
+.navbar .navbar-inverse .navbar-fixed-top{
+	background-color:white;
+}
+.navbar{ 
+    background-image: none;
+}
